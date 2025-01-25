@@ -1,4 +1,4 @@
-import { RouteHandler } from "./types/route-handler";
+import { RouteHandler } from "@/types/route-handler";
 
 const routes: Record<string, RouteHandler> = {
   "get::/": () => console.log("Get on /"),
