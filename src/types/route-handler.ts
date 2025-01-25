@@ -1,1 +1,1 @@
-type RouteHandler = (params: Record<string, string>) => void;
+export type RouteHandler = (params: Record<string, string>) => void;

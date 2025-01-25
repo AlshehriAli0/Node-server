@@ -1,6 +1,5 @@
 import http from "http";
-import { getRequestData } from "./utils/get-request-data";
-import { json } from "stream/consumers";
+import { getRequestData } from "@/utils/get-request-data";
 
 const PORT = 3000;
 
